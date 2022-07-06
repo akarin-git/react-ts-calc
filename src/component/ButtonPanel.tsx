@@ -1,6 +1,6 @@
     export default function ButtonPanel(props: {
         buttonHandler: (code: string) => void;
-    }) {
+    }){
     return (
         <div>
             <div>

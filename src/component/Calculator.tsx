@@ -17,7 +17,9 @@ export default function Calculator() {
     }
     return (
         <div>
+            {/* <Display value={state.current}/> */}
             <Display value={state.current}/>
+            {/* <ButtonPanel buttonHandler={buttonHandler}/> */}
             <ButtonPanel buttonHandler={buttonHandler}/>
         </div>
 
